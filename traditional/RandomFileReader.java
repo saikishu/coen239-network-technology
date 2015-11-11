@@ -25,7 +25,7 @@ public class RandomFileReader {
         int total = 0;
         int bytesRead = 0;
         while((bytesRead = fin.read(buffer)) != -1 ) {
-          System.out.println(new String(buffer));
+          //System.out.println(new String(buffer));
           total += bytesRead;
         }
         fin.close();
