@@ -24,7 +24,7 @@ public class RandomFileGenerator {
       File file;
       FileOutputStream fop = null;
       try {
-        file = new File("data.bin"); //data file
+        file = new File("file"); //data file
         fop = new FileOutputStream(file);
         if (!file.exists()) {
   				file.createNewFile();
